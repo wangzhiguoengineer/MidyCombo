@@ -1,7 +1,7 @@
 <?php
 /**
- * MidyCombo v1.0 (http://www.midy.me)
- * (C)2016-2099 MIDY ,Ltd..
+ * MidyCombo v1.0 (https://github.com/lovemidiuser/MidyCombo)
+ * (C)2016-2099 MIDY ,Ltd.(http://www.midy.me)
  * Author: ZhiGuo Wang <977612005@qq.com>
  * Date: 2017/1/19
  * Time: 2:41
@@ -126,7 +126,7 @@ if(preg_match('/js|css/',$type)){
         $files
     );
 }
-header("Access-Control-Allow-Origin:'http://www.ykyjgy.com'");
+header("Access-Control-Allow-Origin:'*'");
 header("Expires: " . date("D, j M Y H:i:s", strtotime("now + 10 years")) ." GMT");
 header($header[$type]);//文件类型
 if(preg_match('/js|css/',$type)){
