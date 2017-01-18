@@ -1,6 +1,6 @@
 <?php
 /**
- *  MidyCombo v1.0 (http://www.midy.me)
+ * MidyCombo v1.0 (http://www.midy.me)
  * (C)2016-2099 MIDY ,Ltd..
  * Author: ZhiGuo Wang <977612005@qq.com>
  * Date: 2017/1/19
@@ -115,7 +115,7 @@ foreach (explode(',',$_GET[$var]) as $key => $value) {
 if(preg_match('/js|css/',$type)){
     $files = array_merge(
         ["/**********"],
-        ["\r\n * MidyCombo v1.0 (http://www.midy.me)"],
+        ["\r\n * MidyCombo v1.0 (https://github.com/lovemidiuser/MidyCombo)"],
         ["\r\n * Copyright 2017".(date('Y')>2017?date('-Y'):'')." MIDY,Ltd."],
         ["\r\n **********"],
         ["\r\n * Time:".date('Y-m-d H:i:s')],
